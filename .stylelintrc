@@ -1,0 +1,17 @@
+{
+  "extends": "stylelint-config-sass-guidelines",
+  "rules": {
+    "color-named": ["never", {
+      "ignore": ["inside-function"]
+    }],
+    "function-parentheses-space-inside": "never-single-line",
+    "max-nesting-depth": 6,
+    "order/properties-alphabetical-order": null,
+    "scss/at-function-pattern": "^[a-z]+([a-zA-Z0-9-]+[a-zA-Z0-9]+)?$",
+    "scss/at-mixin-pattern": "^[a-z]+([a-zA-Z0-9-]+[a-zA-Z0-9]+)?$",
+    "scss/dollar-variable-pattern": "^[_]?[a-z]+([a-zA-Z0-9-]+[a-zA-Z0-9]+)?$",
+    "scss/percent-placeholder-pattern": "^[a-z]+([a-zA-Z0-9-]+[a-zA-Z0-9]+)?$",
+    "selector-class-pattern": "^[a-z0-9\\-_]+$",
+    "selector-max-id": 1
+  }
+}

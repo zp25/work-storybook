@@ -1,0 +1,29 @@
+@import '~zp-ui/styles/func';
+@import '~zp-ui/styles/root';
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+:root {
+  --lightgrey: #f5f5f5;
+  --text: #222;
+}
+
+:global(#root) {
+  width: 100%;
+  height: 100%;
+  color: var(--text, #222);
+  font-size: torem(14px);
+  line-height: 1.5;
+}
+
+.app {
+  @include flexbox(column, nowrap, flex-start, center);
+
+  padding: torem(20px);
+}

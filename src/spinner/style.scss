@@ -1,0 +1,7 @@
+@import '~zp-ui/styles/func';
+@import '~spinkit/spinkit.css';
+
+:root {
+  --sk-size: #{torem(30px)};
+  --sk-color: #333;
+}

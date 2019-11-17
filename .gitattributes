@@ -1,0 +1,11 @@
+# normalize line-endings
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.vue  text eol=lf
+*.json text eol=lf
+*.css  text eol=lf
+*.scss text eol=lf
+*.less text eol=lf
+*.html text eol=lf
+*.hbs  text eol=lf
+*.md   text eol=lf
